@@ -132,6 +132,10 @@
 						<testFailureIgnore>true</testFailureIgnore>
 						<suiteXmlFiles>
 							<suiteXmlFile>testng.xml</suiteXmlFile>
+							<suiteXmlFile>parallel_CrossBrowser.xml</suiteXmlFile>
+							<suiteXmlFile>testng_regression.xml</suiteXmlFile>
+							<suiteXmlFile>testng_smoke.xml</suiteXmlFile>
+							<suiteXmlFile>testng_sanity.xml</suiteXmlFile>
 						</suiteXmlFiles>
 						<systemPropertyVariables>
 							<appURL>${project.url}</appURL>
