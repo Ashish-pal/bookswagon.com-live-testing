@@ -131,7 +131,7 @@
 					<configuration>
 						<testFailureIgnore>true</testFailureIgnore>
 						<suiteXmlFiles>
-							<suiteXmlFile>${xmlFiles}</suiteXmlFile>
+							<suiteXmlFile>testng.xml</suiteXmlFile>
 						</suiteXmlFiles>
 						<systemPropertyVariables>
 							<appURL>${project.url}</appURL>
