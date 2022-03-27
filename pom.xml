@@ -132,7 +132,7 @@
 							<suiteXmlFile>${xmlFiles}</suiteXmlFile>
 						</suiteXmlFiles>
 						<systemPropertyVariables>
-							<appURL>${url}</appURL>
+							<appURL>${project.url}</appURL>
 						</systemPropertyVariables>
 					</configuration>
 				</plugin>
